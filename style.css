@@ -1,0 +1,127 @@
+body {
+      /* background-image: url("./images/theatre.jpeg"); */
+      background-color: #07746b;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      font-family: 'Roboto', sans-serif;
+      color: #444;
+      letter-spacing: 1px;
+  }
+  
+  h1,
+  h2 {
+      font-weight: normal;
+  }
+  
+  #wrapper {
+      background-color: #17d5c5;
+      width: 90%;
+      max-width: 960px;
+      margin: 20px auto;
+      border-radius: 6px;
+      box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.7);
+      box-sizing: border-box;
+      padding: 0 0 20px;
+      overflow: hidden;
+      border: 1px solid lightgray;
+  }
+  
+  .page-banner {
+      background-image: url("./images/movie.jpeg");
+      background-size: 100%;
+      align-items: center;
+      padding: 10px 0;
+  }
+  
+  .page-banner h1,
+  .page-banner p {
+      text-align: center;
+      width: 100%;
+      margin: 10px 0;
+  }
+  
+  #add-movie,
+  #cars {
+      margin: 30px;
+  }
+  
+  #cars ul {
+      list-style: none;
+      padding: 0;
+  }
+  
+  #cars li {
+      border-left: 5px solid #ddd;
+      padding: 20;
+      margin: 20px 10px;
+  }
+  #cars li:hover {
+      border-color: #9361bf;
+  }
+  
+  .delete {
+      float: right;
+      background: #f70000;
+      color: #ffffff;
+      padding: 6px;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  .delete:hover {
+      background: maroon;
+  }
+  
+  
+  #add-car {
+      width: 400px;
+      margin: 10px auto;
+      
+  }
+  #add-car input {
+      display: block;
+      border-radius: 7px;
+      margin: 20px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      width: 300px;
+      float: left;
+      clear: both;
+  }
+  
+  /* #add-carbutton {
+      border: 1px solid green;
+      background: green;
+      /* padding: 10px 20px; */
+      /* font-size: 14px;
+      display: inline-block;
+      width: 100px;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+      border-left: 0;
+      color: white;
+      margin: 20px 10px;
+  } */ */
+  .but{
+    height: 30px;
+    width: 40px;
+    color: aqua;
+    background-color: aquamarine;
+    cursor: pointer;
+    padding-left: 20px;
+    border-radius: 10px;
+  }
+  
+  /* #add-car button:hover {
+      background: darkgreen;
+  } */
+  
+  #add-car:after{
+      content: "";
+      display : block;
+      clear: both;
+  }
+  #add-car label{
+     line-height: 52px;
+  }
+   
